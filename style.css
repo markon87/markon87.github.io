@@ -4,10 +4,17 @@
 }
 html, body{
     background-color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 .container{
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
+}
+.under-construction-message{
+    border-top: 3px solid red;
+    border-radius: 5px;
+    margin-top: 50%;
+    text-align: center;
 }
