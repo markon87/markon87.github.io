@@ -16,7 +16,7 @@ a{
 }
 .under-construction-message{
     border: 1px solid #ccc;
-    border-top: 3px solid #b72727;
+    border-top: 5px solid #b72727;
     border-radius: 5px;
     margin-top: 50%;
     text-align: center;
