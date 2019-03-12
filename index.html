@@ -1,17 +1,462 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Marko Novakovic portfolio</title>
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="under-construction-message">
-                <h1>Welcome to Marko Novakovic portfolio website</h1>
-                <h2>currently page is under construction</h2>
-                <p>in the meantime you can contact me at <a href="mailto:novakovicmarko87@gmail.com">novakovicmarko87@gmail.com</a></p>
-            </div>
-        </div>
-    </body>
+	<head>
+		<title>Marko Novakovic</title>
+		<meta name="description" content="Creative front-end developer with more then 3 years of professional experience. Create webpages using HTML5, CSS3, JavaScript." />
+		<meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Web design " />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
+		<link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="plugins/wow/animate.css">
+		<link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+
+		<?php 
+		if($_SERVER["ENVIRONMENT"] == 'development'){ ?>
+			<link rel="stylesheet" type="text/css" href="css/preloader.css">
+			<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.min.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+		<?php }
+		if($_SERVER["ENVIRONMENT"] == 'production'){ ?>
+			<link rel="stylesheet" type="text/css" href="css/build.min.css">
+		<?php } ?>
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<!--<div class="header-logo">
+					<img src="images/logo.png" alt="Marko Novakovic" />
+				</div>-->
+				<div id="nav-icon1" class="menu-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#" data-link="about-me">About me</a></li>
+						<li><a href="#" data-link="works">Works</a></li>
+						<li><a href="#" data-link="contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div id="loader-wrapper">
+			    <div id="loader"></div>
+			 
+			    <div class="loader-section section-left"></div>
+			    <div class="loader-section section-right"></div>
+			 
+			</div>
+			<section class="home-page">
+				<div class="container">
+					<div class="welcome-msg">
+						<h1>Hi! I am Marko Novaković</h1>
+						<span class="line"></span><p>Front-end developer</p><span class="line right"></span>
+					</div>
+				</div>
+			</section>
+			<section class="fullscreen"></section>
+			<section id="about-me" class="section-block page about-me-page">
+				<div class="container">
+					<div class="wow fadeInUp" data-wow-delay=".1s">
+						<h1>Few words <span class="highlight-text">About Me</span></h1>
+					</div>
+					<div class="row">
+						<div class="col-md-3 about-me-img">
+							<img class="wow fadeInUp" data-wow-delay=".1s" src="images/marko_novakovic.jpg" alt="Marko Novakovic photo" />
+							<hr />
+							<a href="https://www.facebook.com/marko.novakovic.921" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/marko-novakovi%C4%87-89313333/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<!-- <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a> -->
+							<a href="https://github.com/markon87" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a href="https://bitbucket.org/markon87/" target="_blank"><i class="fa fa-bitbucket-square" aria-hidden="true"></i></a>
+							<a href="http://codepen.io/markon/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+							<hr />
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12 about-me-text wow fadeInUp" data-wow-delay=".1s">
+								<p>I am a creative front-end developer with 3+ years of professional experience. I develop 
+									compelling designs that are responsive, cross browser and cross device ready.</p>
+								<p>All those designs springs to life using CSS animations and JavaScript libraries such as jQuery.
+									JavaScript offers me endless possibilities in finding just the right solution.</p>
+								<p>I love working in a team and bringing up ideas to the table that would help realise our goal
+									of creating truly outstanding digital properties. I’m passionate about developing 
+									a great new designs and I am very dedicated to the details.</p>
+									<p>Every day is a new challenge and I am happy that I can solve new problems and 
+										learn something new.</p>
+									<p>In my spare time I like to play with 3D graphic and creating low-poly 3D models that are
+										game engine ready.</p>
+							</div>
+							<div class="col-md-12 skills-n-tech wow fadeInUp" data-wow-delay=".1s">
+								<h3>Skills and Techniques</h3>
+								<ul>
+									<li>HTML / HTML5 <div class="skill-bar" value="85"></div></li>
+									<li>CSS / CSS3 <div class="skill-bar" value="80"></div></li>
+									<li>SASS <div class="skill-bar" value="80"></div></li>
+									<li>JavaScript <div class="skill-bar" value="70"></div></li>
+									<li>jQuery <div class="skill-bar" value="75"></div></li>
+									<li>Git / Svn <div class="skill-bar" value="65"></div></li>
+								</ul>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="works" class="section-block page works-page">
+				<div class="container">
+					<div class="wow fadeInUp" data-wow-delay=".1s">
+						<h1>Checkout my <span class="highlight-text">Works</span></h1>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="filters" class="button-group wow fadeInUp">
+							  <button class="button is-checked" data-filter=".work">Work</button>
+							  <button class="button" data-filter=".hobi">2D/3D Hobi</button>
+							  <button class="button" data-filter=".practise">Practise</button>
+							  <!-- <button class="button" data-filter=".practise">Practise</button> -->
+							</div>
+						</div>
+						<div class="col-md-12 grid">
+							<div class="grid-item work long-website">
+								<div class="work-item-header">
+									<a href="http://www.endlich-online.ch" target="_blank" title="Endlich Online">
+										<img src="images/work/endlich/endlich-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Endlich Online</h3>
+									<hr>
+									<p>I was front end developer for this project. This is one page website. Using HTML and CSS
+									I implemented PSD design. This website springs to life with all those animated elements.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://www.endlich-online.ch" target="_blank">www.endlich-online.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work">
+								<div class="work-item-header">
+									<a href="https://www.frisco.ch/de" target="_blank" title="Frisco Nestle">
+										<img src="images/work/frisco/frisco-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Frisco Nestle</h3>
+									<hr>
+									<p>This is one delicious multipage website. A lot of products needed to be represented in some cool fashion. Implementing design was a fun experience.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="https://www.frisco.ch/de" target="_blank">www.frisco.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work">
+								<div class="work-item-header">
+									<a href="https://www.spirig-rhv.ch/de" target="_blank" title="Spirig rhv">
+										<img src="images/work/spirig/spirig-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Spirig rhv</h3>
+									<hr>
+									<p>One of the bigger multi page websites with a lot of content and all needed to collapse perfect on all breakpoints and to look great on all devices.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="https://www.spirig-rhv.ch/de" target="_blank">www.spirig-rhv.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work">
+								<div class="work-item-header">
+									<a href="http://montageprofis.ch/de" target="_blank" title="Montageprofis">
+										<img src="images/work/montageprofis/montageprofis.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Montageprofis</h3>
+									<hr>
+									<p>Out of the boundaries of Bootstrap container this is beautiful multi page website with modern look and pleasant user experience.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://montageprofis.ch/de" target="_blank">www.montageprofis.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work extra-long-website">
+								<div class="work-item-header">
+									<a href="http://www.heiden-festival.ch/de" target="_blank" title="Heiden Festival">
+										<img src="images/work/heiden-festival/heiden-festival-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Heiden Festival</h3>
+									<hr>
+									<p>I was front end developer for this project. This is one page website. Using HTML and CSS
+									I implemented PSD design.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://www.heiden-festival.ch/de" target="_blank">www.heiden-festival.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work extra-long-website">
+								<div class="work-item-header">
+									<a href="http://eggers-catering.ch/de" target="_blank" title="Eggers catering">
+										<img src="images/work/eggers-catering/eggers-catering-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Eggers catering</h3>
+									<hr>
+									<p>I was front end developer for this project. This is one page website. Using HTML and CSS
+									I implemented PSD design.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://eggers-catering.ch/de" target="_blank">www.eggers-catering.ch</a>
+								</div>
+							</div>
+							<div class="grid-item work">
+								<div class="work-item-header">
+									<a href="http://www.david.swiss" target="_blank" title="Drink David">
+										<img src="images/work/david/david-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Drink David</h3>
+									<hr>
+									<p>This is multi page website on which I was working as front-end developer. I worked on redesign of this website. Angled sections which are clickable looks pretty cool and they gave this site whole new look. On this website I for the first time I created text slider which slides text by clicking on the parts of SVG image.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://www.david.swiss" target="_blank">www.david.swiss</a>
+								</div>
+							</div>
+							<div class="grid-item work extra-long-website">
+								<div class="work-item-header">
+									<a href="http://michelleschmid.ch/de" target="_blank" title="Michelle Schmid">
+										<img src="images/work/michelleschmid/michelleschmid-whole.jpg" alt="Work image" />
+									</a>
+								</div>
+								<div class="work-item-description">
+									<h3>Michelle Schmid</h3>
+									<hr>
+									<p>I was front end developer for this project. This is one page website. Using HTML and CSS
+											I implemented PSD design.</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript (jQuery)</li>
+									</ul>
+									<a href="http://michelleschmid.ch/de" target="_blank">michelleschmid.ch</a>
+								</div>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/1.jpg"><img src="images/hobi/1.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/2.jpg"><img src="images/hobi/2.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/3.jpg"><img src="images/hobi/3.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/4.jpg"><img src="images/hobi/4.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/5.jpg"><img src="images/hobi/5.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/6.jpg"><img src="images/hobi/6.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/7.jpg"><img src="images/hobi/7.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/8.jpg"><img src="images/hobi/8.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/9.jpg"><img src="images/hobi/9.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/10.jpg"><img src="images/hobi/10.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/12.jpg"><img src="images/hobi/11.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/12.jpg"><img src="images/hobi/12.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/13.jpg"><img src="images/hobi/13.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/14.jpg"><img src="images/hobi/14.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/15.jpg"><img src="images/hobi/15.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/16.jpg"><img src="images/hobi/16.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/17.jpg"><img src="images/hobi/17.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/18.jpg"><img src="images/hobi/18.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/19.jpg"><img src="images/hobi/19.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/20.jpg"><img src="images/hobi/20.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/21.jpg"><img src="images/hobi/21.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/22.jpg"><img src="images/hobi/22.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/23.jpg"><img src="images/hobi/23.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/24.jpg"><img src="images/hobi/24.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/25.jpg"><img src="images/hobi/25.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/26.jpg"><img src="images/hobi/26.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/27.jpg"><img src="images/hobi/27.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/28.jpg"><img src="images/hobi/28.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/29.jpg"><img src="images/hobi/29.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/30.jpg"><img src="images/hobi/30.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/31.jpg"><img src="images/hobi/31.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/32.jpg"><img src="images/hobi/32.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/33.jpg"><img src="images/hobi/33.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/34.jpg"><img src="images/hobi/34.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/35.jpg"><img src="images/hobi/35.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/36.jpg"><img src="images/hobi/36.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/37.jpg"><img src="images/hobi/37.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/38.jpg"><img src="images/hobi/38.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/39.jpg"><img src="images/hobi/39.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/40.jpg"><img src="images/hobi/40.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/41.jpg"><img src="images/hobi/41.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item hobi">
+								<a data-fancybox="hobi" href="images/hobi/42.jpg"><img src="images/hobi/42.jpg" align="Hobi image"></a>
+							</div>
+							<div class="grid-item practise">
+								<a href="/wordpress" target="_blank"><img src="images/practise/1.jpg" align="Practise image"></a>
+								<h4><a href="https://wordpress.org/" target="_blank">Wordpress</a> theme - <code>work in progress</code></h4>
+							</div>
+							<div class="grid-item practise">
+								<a href="http://marko-todo-app.herokuapp.com/" target="_blank"><img src="images/practise/5.jpg" align="Practise image"></a>
+								<h4><a href="https://nodejs.org/en/" target="_blank">NodeJs</a> - todo app</h4>
+							</div>
+							<div class="grid-item practise">
+								<a href="/vue-blog" target="_blank"><img src="images/practise/4.jpg" align="Practise image"></a>
+								<h4><a href="https://vuejs.org/" target="_blank">Vue.js</a> - Simple blog</h4>
+							</div>
+							<div class="grid-item practise">
+								<a href="/reddit-api" target="_blank"><img src="images/practise/2.jpg" align="Practise image"></a>
+								<h4><a href="https://www.reddit.com/" target="_blank">Reddit</a> API - movies</h4>
+							</div>
+							<div class="grid-item practise">
+								<a href="/vuejs-punchTheBag" target="_blank"><img src="images/practise/3.jpg" align="Practise image"></a>
+								<h4><a href="https://vuejs.org/" target="_blank">Vue.js</a> - Punch the bag</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-block contact-page">
+				<div class="angled">
+					<div id="contact" class="angled-content">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 wow fadeInUp" data-wow-delay=".1s"><h1>Here you can <span class="highlight-text">Contact</span> me</h1></div>
+								<div class="col-md-6">
+									<!--<div class="paper-plane-container wow bounceInUp" data-wow-delay=".1s">
+										<i class="fa fa-paper-plane" aria-hidden="true"></i>
+									</div>-->
+									<h4>If you have any questions or comments, fill free to contact me whenever it's the most convenient for you.</h4>
+									<p>You can send me an email to <a href="novakovicmarko87@gmail.com">novakovicmarko87@gmail.com</a>.<br />
+									Or contact me via <a href="https://www.facebook.com/marko.novakovic.921" target="_blank" class="social-icons">facebook</a> or <a href="https://rs.linkedin.com/in/marko-novaković-89313333" target="_blank" class="social-icons">LinkedIn</a>. Thanks!</p></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="toTop"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+		</main>
+		<?php 
+		if($_SERVER["ENVIRONMENT"] == 'development'){ ?>
+			<script type="text/javascript" src="plugins/jquery/jquery-3.2.0.min.js"></script>
+			<script type="text/javascript" src="plugins/isotope/isotope.min.js"></script>
+			<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.min.js"></script>
+			<script type="text/javascript" src="plugins/wow/wow.min.js"></script>
+			<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="plugins/progressBar/progress-bar.min.js"></script>
+			<script type="text/javascript" src="plugins/jquery-validate/jquery.validate.min.js"></script>
+			<script type="text/javascript" src="js/form-validate.js"></script>
+			<script type="text/javascript" src="plugins/img-loaded/img-loaded.min.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		<?php }
+		if($_SERVER["ENVIRONMENT"] == 'production'){ ?>
+			<script type="text/javascript" src="js/build.js"></script>
+		<?php } ?>
+	</body>
 </html>
