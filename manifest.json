@@ -7,7 +7,7 @@
   "background_color": "#111111",
   "icons": [
     {
-      "src": "Artwork.png",
+      "src": "markopwaicon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
