@@ -428,8 +428,7 @@ img.headshot {
 
 .about .about-img img {
   width: 100%;
-  border-radius: 5px;
-  margin-top: 100px;
+  border-radius: 100vmax;
 }
 
 /***Resume page ***/
@@ -749,7 +748,18 @@ a.download-resume-round:hover span.pdf-icon svg {
     right: 35px;
   }
 }
-
+@media screen and (max-width: 1440px) {
+  .container{
+    padding: 25px 25px 25px 100px;
+  }
+  h1.page-title {
+    font-size: 5rem;
+  }
+  .experience-left,
+  .about .about-desc {
+    width: 65%;
+  }
+}
 @media screen and (max-width: 980px) {
   .mobile-toggle {
     position: absolute;
@@ -830,7 +840,6 @@ a.download-resume-round:hover span.pdf-icon svg {
   }
 
   h1.page-title {
-    font-size: 5rem;
     left: 40px;
   }
 
