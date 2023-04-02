@@ -5,12 +5,16 @@ import { useLoaderData } from "react-router-dom"
 export default function ProjectDetails() {
     // const { id } = useParams()
     const project = useLoaderData()
+    const badges = project.badges.split(",")
     
   return (
     <div className="project-details">
       <div className="project-wrapper">
         <div className="project-info">
-            <h2>{project.title}</h2>    
+            <h2>{project.title}</h2>
+            <p>{badges.map((badge, index) => (
+              <span key={index} className="badge">{badge}</span>
+            ))}</p>
             <p>{project.description}</p>
             <br />
             <GlowButtonExternal text="Website" linkTo={project.website} />

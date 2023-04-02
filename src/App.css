@@ -614,13 +614,20 @@ a.download-resume-round:hover span.pdf-icon svg {
 
 .project-image {
   width: 30%;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 10px solid rgba(255, 255, 255, .2);
+  border-radius: 5px;
 }
 
 .project-image img {
   width: 100%;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 10px solid rgba(255, 255, 255, .2);
-  border-radius: 5px;
+  border-radius: 5px; */
+  animation: scroll-image ease-in-out 20s infinite;
 }
 
 .website-link {
@@ -632,6 +639,22 @@ a.download-resume-round:hover span.pdf-icon svg {
   text-decoration: none;
   margin-top: 25px;
   font-size: 1.5rem;
+}
+
+.work-layout .navigation{
+  margin-top: 25px;
+}
+
+span.badge {
+  background-color: #984e4a;
+  color: white;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 /** Glow Button **/
@@ -729,6 +752,19 @@ a.download-resume-round:hover span.pdf-icon svg {
   25%,
   75% {
     opacity: 1;
+  }
+}
+
+@keyframes scroll-image {
+
+  0%{
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(-100% + 500px));
+  }
+  100%{
+    transform: translateY(0);
   }
 }
 
