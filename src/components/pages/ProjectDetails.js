@@ -15,7 +15,8 @@ export default function ProjectDetails() {
             <p>{badges.map((badge, index) => (
               <span key={index} className="badge">{badge}</span>
             ))}</p>
-            <p>{project.description}</p>
+            {/* <p>{project.description}</p> */}
+            <div dangerouslySetInnerHTML={ {__html: project.description} } />
             <br />
             <GlowButtonExternal text="Website" linkTo={project.website} />
           </div>
