@@ -345,12 +345,12 @@ img.headshot {
   transition: all .3s ease-in-out;
 }
 
-.social-icons li a:hover svg {
+.social-icons li:hover a svg {
   margin: -5px auto 5px auto;
 }
 
-.social-icons li a:hover,
-.social-icons li a:hover svg path {
+.social-icons li:hover a,
+.social-icons li:hover a svg path {
   color: #ac4848;
 }
 
