@@ -3,7 +3,7 @@ import { useLoaderData, Link } from "react-router-dom";
 export default function MyWork(){
   const projects = useLoaderData()
 
-  const firstProjects = projects.slice(0, 6);
+  const firstProjects = projects.slice(0, 12);
 
   return (
     <div className="projects">
