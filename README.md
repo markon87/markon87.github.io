@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <h1>About Me<h1>
+=======
+<h1>About Me</h1>
+>>>>>>> master
 <p>Hey there! 👋 <br />
 I'm a creative Front-End Developer based in Bethesda, MD, passionate about crafting beautiful and responsive web solutions with engaging user-friendly experiences.</p>
 
@@ -17,7 +21,11 @@ I'm a creative Front-End Developer based in Bethesda, MD, passionate about craft
 <li>Building small and medium web apps</li>
 <li>Animations</li>
 <li>Coding interactive layouts</li>
+<<<<<<< HEAD
 <ul>
+=======
+</ul>
+>>>>>>> master
 
 <h2>Beyond Work</h2>
 <p>In my spare time, you'll often find me tending to my reef tank or scaling walls at my local climbing gym.</p>
