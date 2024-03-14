@@ -893,8 +893,13 @@ span.badge {
   }
 
   .about .about-img img{
-    width: 50%;
+    /* width: 50%; */
     margin-top: 25px;
+  }
+  .headshot-container .rotate-container {
+      inset: unset;
+      left: -17px;
+      top: 5px;
   }
 }
 
