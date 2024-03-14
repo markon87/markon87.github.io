@@ -901,6 +901,9 @@ span.badge {
       left: -17px;
       top: 5px;
   }
+  .home .headshot-container .rotate-container {
+    top: -21px;
+}
 }
 
 @media screen and (max-width: 800px) {
