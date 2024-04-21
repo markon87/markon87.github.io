@@ -16,67 +16,58 @@ export default function Resume() {
           <p>(Aug 2017 - Present)</p>
           <ul>
             <li>
-              Lead the full life cycle of website development projects,
-              overseeing from conception to deployment, ensuring seamless
-              execution and client satisfaction.
+              Lead full life cycle of website projects from conception to
+              deployment, ensuring client satisfaction.
             </li>
             <li>
-              Manage project development, coordinating tasks and resources to
-              meet deadlines and quality standards.
+              Managed project development, coordinating tasks to meet deadlines
+              and quality standards.
             </li>
             <li>
-              Maintain proactive communication with clients, understanding their
-              requirements and ensuring all requests are accurately addressed.
+              Maintained proactive client communication, addressing all
+              requirements accurately.
             </li>
             <li>
-              Design and develop responsive websites using WordPress, employing
-              HTML5, CSS3, JavaScript, and PHP to ensure cross-browser
-              compatibility and optimal user experience.
+              Designed and developed responsive WordPress websites, ensuring
+              cross-browser compatibility and optimal UX.
             </li>
             <li>
-              Customize WordPress themes and plugins to align with project
-              specifications.
+              Customized WordPress themes and plugins to project specifications.
             </li>
             <li>
-              Leveraging Adobe Creative Suite to refine client-provided images
-              and graphics.
+              Utilized Adobe Creative Suite to refine client-provided graphics.
             </li>
             <li>
-              Transform design concepts from Photoshop files or Figma into
-              functional websites, ensuring fidelity to the original vision
-              while optimizing for web performance.
+              Translated design concepts into functional websites, optimizing
+              for performance.
             </li>
             <li>
-              Successfully manage a diverse portfolio of over 70 website
-              development projects, showcasing adaptability and expertise across
-              various industries and client requirements.
+              Successfully managed 70+ diverse website projects, showcasing
+              adaptability.
             </li>
             <li>
-              Maintain a reputation for delivering exceptional work, effective
-              communication, and timely solutions, consistently achieving high
-              levels of customer satisfaction.
+              Maintained a reputation for exceptional work, effective
+              communication, and timely solutions.
             </li>
             <li>
-              Develop responsive websites optimized for multiple screen sizes
-              and ensure compatibility across various browsers, ensuring a
-              seamless user experience regardless of device or platform.
+              Developed responsive websites for various screen sizes and
+              browsers, ensuring seamless user experience.
             </li>
             <li>
-              Provide accurate project time estimates, balancing client
-              expectations with realistic development timelines.
+              Provided accurate project time estimates, balancing client
+              expectations.
             </li>
             <li>
-              Act as a consultant to clients, suggesting optimal solutions and
-              advising on eCommerce strategies to enhance online sales.
+              Suggested optimal solutions and eCommerce strategies to enhance
+              sales.
             </li>
             <li>
-              Implement bug fixes and performance enhancements on existing
-              websites, significantly improving functionality and speed.
+              Implemented bug fixes and performance enhancements, improving
+              functionality.
             </li>
             <li>
-              Conduct presentations and demos to showcase project progress,
-              maintaining transparent communication and keeping clients informed
-              throughout the development process.
+              Conducted presentations to keep clients informed throughout
+              development.
             </li>
           </ul>
           <br />
