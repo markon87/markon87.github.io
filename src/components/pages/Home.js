@@ -23,7 +23,7 @@ function Home() {
         <h3>A creative Front-End Developer located in Bethesda, MD</h3>
         <div className="contact-info">
           <div><p>Email: <MailTo email="novakovicmarko87@gmail.com">novakovicmarko87@gmail.com</MailTo></p></div>
-          <div><p>Phone: 571-338-6735</p></div>
+          <div><p>Phone: +1 571-338-6735</p></div>
           <ul className="social-icons">
             <li><ExternalLink href="https://github.com/markon87" target="_blank"><FaGithub />GitHub</ExternalLink></li>
             <li><ExternalLink href="https://www.linkedin.com/in/marko-novakovic-mn/" target="_blank"><FaLinkedin />LinkedIn</ExternalLink></li>
