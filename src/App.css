@@ -968,7 +968,6 @@ span.badge {
     width: 100%;
   }
   .container.about .headshot-container .rotate-container {
-      top: 4px;
-      left: -17px;
+      display: none;
   }
 }
