@@ -15,7 +15,7 @@ export default function Resume() {
           <p>(Jun 2024 - Present)</p>
           <ul>
             <li>Build data-driven applications that automate manual processes and solve complex data challenges.</li>
-            <li>Develop solutions for large dataset visualization.</li>
+            <li>Develop solutions for visualizing large datasets.</li>
             <li>Led frontend development as the primary engineer on a key project, which successfully led to a new contract valued over $2M.</li>
             <li>Build and maintain ReactJS applications that integrate with RESTful APIs using RTK Query for
             efficient data fetching and caching.</li>
