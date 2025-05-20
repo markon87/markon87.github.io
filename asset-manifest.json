@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.74e9eed1.css",
-    "main.js": "/static/js/main.d08a287a.js",
+    "main.js": "/static/js/main.8e55f365.js",
     "static/media/Marko-Novakovic-resume.pdf": "/static/media/Marko-Novakovic-resume.dd64c3ce366c82f00b3a.pdf",
     "static/media/paint-splash.jpg": "/static/media/paint-splash.22f9619e1155adfb354e.jpg",
     "static/media/headshot.jpeg": "/static/media/headshot.2b9237bba27186ca55f1.jpeg",
     "index.html": "/index.html",
     "static/media/mn-logo-outline.svg": "/static/media/mn-logo-outline.b365ba1798408927a19a7650cd723802.svg",
     "main.74e9eed1.css.map": "/static/css/main.74e9eed1.css.map",
-    "main.d08a287a.js.map": "/static/js/main.d08a287a.js.map"
+    "main.8e55f365.js.map": "/static/js/main.8e55f365.js.map"
   },
   "entrypoints": [
     "static/css/main.74e9eed1.css",
-    "static/js/main.d08a287a.js"
+    "static/js/main.8e55f365.js"
   ]
 }
