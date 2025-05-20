@@ -898,8 +898,12 @@ span.badge {
   }
   .headshot-container .rotate-container {
       inset: unset;
-      top: 5px;
-      left: -17px;
+      top: -20px;
+      left: -20px;
+  }
+  .container.about .headshot-container .rotate-container {
+      top: 6px;
+      left: -20px;
   }
 }
 
@@ -962,5 +966,9 @@ span.badge {
   }
   .about .about-img img{
     width: 100%;
+  }
+  .container.about .headshot-container .rotate-container {
+      top: 4px;
+      left: -17px;
   }
 }
