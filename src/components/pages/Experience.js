@@ -10,24 +10,40 @@ export default function Resume() {
       <CirclePdfLink pdfLink={MarkoResume} />
       <div className="experience-wrapper">
         <div className="experience-left">
-          <h3>Glimmernet Technologies, Bethesda, MD</h3>
-          <p><strong>Web developer & designer</strong></p>
-          <p>(Aug 2017 - Present)</p>
+          <h3>Data Society Group, Washington, D.C.</h3>
+          <p><strong>Frontend Engineer</strong></p>
+          <p>(Jun 2024 - Present)</p>
           <ul>
-            <li> Oversee the full life cycle of website development</li>
-            <li> Lead project development from start to finish.</li>
-            <li>Communicate with clients and ensure that all requests are met.</li>
-            <li>Design and develop cross-browser responsive websites in WordPress.</li>
-            <li>Customize WordPress themes and plugins to fit projects’ needs.</li>
-            <li>Advise on project time estimation and find the most optimal solutions.</li>
-            <li>Develop eCommerce solutions for online stores that help clients to
+            <li>Led frontend development as the primary engineer on a key project, which successfully led to a new
+            contract valued over $1M.</li>
+            <li>Build and maintain ReactJS applications that integrate with RESTful APIs using RTK Query for
+            efficient data fetching and caching.</li>
+            <li>Collaborate closely with cross-functional teams, ensure high-quality delivery within timelines and
+            promote best practices for development efficiency.</li>
+            <li>Collaborate on projects using technologies like Azure DevOps, Docker, Snowflake, AWS (S3,
+            Athena, API Gateway), and Terraform.</li>
+            <li>Create reusable components that enhance development speed and code maintainability across
+            multiple teams and projects.</li>
+          </ul>
+          <br />
+          <h3>Glimmernet Technologies, Bethesda, MD</h3>
+          <p><strong>Web Developer & Designer</strong></p>
+          <p>(Aug 2017 - Jun 2024)</p>
+          <ul>
+            <li>Oversaw the full life cycle of website development</li>
+            <li>Led project development from start to finish.</li>
+            <li>Communicated with clients and ensured that all requests are met.</li>
+            <li>Designed and developed cross-browser responsive websites in WordPress.</li>
+            <li>Customized WordPress themes and plugins to fit projects’ needs.</li>
+            <li>Advised on project time estimation and found the most optimal solutions.</li>
+            <li>Developed eCommerce solutions for online stores that help clients to
               increase their sales.</li>
-            <li>Fix bugs on existing websites and implement solutions that
-              significantly improve web functionalities and speed.</li>
+            <li>Fixed bugs on existing websites and implemented solutions that
+              significantly improved web functionalities and speed.</li>
           </ul>
           <br />
           <h3>HORISEN Marketing Technology, Niš, Serbia</h3>
-          <p><strong>Front-end developer</strong></p>
+          <p><strong>Frontend Developer</strong></p>
           <p>(Dec 2013 – May 2017)</p>
           <ul>
             <li>Developed mobile-first dynamic and interactive websites from PSD files
@@ -44,16 +60,19 @@ export default function Resume() {
           <h3>Technical skills:</h3>
           <ul>
             <li>HTML</li>
-            <li>CSS (SASS)</li>
-            <li>JavaScript (ReactJS, VueJS, NodeJS)</li>
-            <li>BEM methodology</li>
+            <li>CSS (SASS), Material UI</li>
+            <li>JavaScript (ReactJS, jQuery)</li>
+            <li>RTK Query, Redux, REST APIs</li>
+            <li>NodeJS, Express</li>
+            <li>Wordpress</li>
           </ul>
 
           <h3>Tools:</h3>
           <ul>
-            <li>Version control software (Git and SVN)</li>
-            <li>FTP clients (FileZilla or WinSCP)</li>
+            <li>Version control software (Git, GitHub)</li>
+            <li>Visual Studio Code</li>
             <li>Task runners (Grunt, Gulp)</li>
+            <li>Jira</li>
             <li>Adobe Photoshop and Adobe Illustrator</li>
           </ul>
 
