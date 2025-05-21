@@ -327,9 +327,13 @@ img.headshot {
   padding: 0;
   margin: 35px auto 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 32px;
   width: 100%;
   max-width: 400px;
+}
+.contact.container .social-icons{
+  justify-content: flex-start;
 }
 
 .social-icons li {

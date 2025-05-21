@@ -1,5 +1,5 @@
 import headshot from "../../images/headshot.jpeg"
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { ExternalLink } from "react-external-link";
 import { Link } from "react-router-dom";
 import MailTo from "../MailTo";
@@ -20,14 +20,13 @@ function Home() {
           </Link>
         </div>
         <h1>Hi! I am Marko Novaković</h1>
-        <h3>A creative Front-End Developer located in Bethesda, MD</h3>
+        <h3>A creative Frontend Engineer located in Bethesda, MD</h3>
         <div className="contact-info">
           <div><p>Email: <MailTo email="novakovicmarko87@gmail.com">novakovicmarko87@gmail.com</MailTo></p></div>
           <div><p>Phone: +1 571-338-6735</p></div>
           <ul className="social-icons">
             <li><ExternalLink href="https://github.com/markon87" target="_blank"><FaGithub />GitHub</ExternalLink></li>
             <li><ExternalLink href="https://www.linkedin.com/in/marko-novakovic-mn/" target="_blank"><FaLinkedin />LinkedIn</ExternalLink></li>
-            <li><ExternalLink href="https://twitter.com/MarkoNo43595786" target="_blank"><FaTwitter />Twitter</ExternalLink></li>
           </ul>
         </div>
       </div>

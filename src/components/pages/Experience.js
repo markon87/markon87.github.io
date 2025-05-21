@@ -18,8 +18,7 @@ export default function Resume() {
             <li>Develop solutions for visualizing large datasets.</li>
             <li>Build and maintain ReactJS applications that integrate with RESTful APIs using RTK Query for
             efficient data fetching and caching.</li>
-            <li>Collaborate closely with cross-functional teams, ensure high-quality delivery within timelines and
-            promote best practices for development efficiency.</li>
+            <li>Collaborate closely with cross-functional teams and ensure high-quality delivery within timelines.</li>
             <li>Collaborate on projects using technologies like Azure DevOps, Docker, Snowflake, AWS (S3,
             Athena, API Gateway), and Terraform.</li>
             <li>Create reusable components that enhance development speed and code maintainability across

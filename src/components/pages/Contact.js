@@ -1,5 +1,5 @@
 import { ExternalLink } from 'react-external-link'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import MailTo from '../MailTo'
 
 export default function Contact() {
@@ -14,7 +14,6 @@ export default function Contact() {
           <ul className="social-icons" style={{ marginTop: 35, marginLeft: 0, marginBottom: 0, marginRight: 0 }}>
             <li><ExternalLink href="https://github.com/markon87" target="_blank"><FaGithub />GitHub</ExternalLink></li>
             <li><ExternalLink href="https://www.linkedin.com/in/marko-novakovic-mn/" target="_blank"><FaLinkedin />LinkedIn</ExternalLink></li>
-            <li><ExternalLink href="https://twitter.com/MarkoNo43595786" target="_blank"><FaTwitter />Twitter</ExternalLink></li>
           </ul>
         </div>
 
