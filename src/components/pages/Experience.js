@@ -10,7 +10,7 @@ export default function Resume() {
       <CirclePdfLink pdfLink={MarkoResume} />
       <div className="experience-wrapper">
         <div className="experience-left">
-          <h3>Data Society Group, Washington, D.C.</h3>
+          <h3>Data Society Group, Washington, D.C., USA</h3>
           <p><strong>Frontend Engineer</strong></p>
           <p>(Jun 2024 - Present)</p>
           <ul>
@@ -25,11 +25,11 @@ export default function Resume() {
             multiple teams and projects.</li>
           </ul>
           <br />
-          <h3>Glimmernet Technologies, Bethesda, MD</h3>
+          <h3>Glimmernet Technologies, Bethesda, MD, USA</h3>
           <p><strong>Web Developer & Designer</strong></p>
           <p>(Aug 2017 - Jun 2024)</p>
           <ul>
-            <li>Oversaw the full life cycle of website development</li>
+            <li>Oversaw the full life cycle of website development.</li>
             <li>Led project development from start to finish.</li>
             <li>Communicated with clients and ensured that all requests are met.</li>
             <li>Designed and developed cross-browser responsive websites in WordPress.</li>
